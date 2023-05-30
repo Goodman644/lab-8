@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   
+    
+   background-image:url("https://i.gifer.com/DRk.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+	color: white;
+    
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+    
+    margin: 5% 35%;
+}
+
+td, th {
+  border: 1px solid gray;
+  text-align: left;
+  padding: 8px;
+    font-family: 'Matrix', sans-serif;
+}
+th{
+    background-color: black;
+}
+
+tr:nth-child(even) {
+   background-color: solid white;
+}
+tr{
+   
+     background-color: black;
+    
+}
+
+
+footer{
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+     position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/
+            height: 40px;
+            
+    
+}
+.mat{
+    text-align: center;
+    
+}
+h1{
+    margin-top: 5px;
+}
